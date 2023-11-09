@@ -47,7 +47,7 @@
 
     $jogador = new jogador();
     $jogador->setNome ("João"); 
-    $jogador->setPosicao ("Goleiroo");
+    $jogador->setPosicao ("Goleiro");
 
     $brasil->addJogadores($jogador); 
 
@@ -58,4 +58,4 @@
     $brasil->addJogadores($jogador);
     
     var_dump($brasil); 
-?> daniel gay
+?>
