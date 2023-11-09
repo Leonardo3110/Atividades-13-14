@@ -43,16 +43,16 @@
     }
 
     $brasil = new time();
-    $brasil->setNome ("Brasil Futsal");
+    $brasil->setNome ("Brasil");
 
     $jogador = new jogador();
-    $jogador->setNome ("João"); 
+    $jogador->setNome ("Matheus"); 
     $jogador->setPosicao ("Goleiro");
 
     $brasil->addJogadores($jogador); 
 
     $jogador = new jogador();
-    $jogador->setNome ("Gabriel"); 
+    $jogador->setNome ("Leonardo"); 
     $jogador->setPosicao ("Atacante");
 
     $brasil->addJogadores($jogador);
